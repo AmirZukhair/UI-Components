@@ -1,0 +1,139 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+	box-sizing: inherit;
+	font-family: 'Muli', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+label{
+	display:block;
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 5.3px;
+}
+a{
+	font-size: 14px;
+	color: #306BF3;
+	text-decoration: none;
+}
+p{
+	text-align: center;
+	padding: 20px 0 11px 0;
+}
+button{
+	padding: 12px 0;
+	background-color: #10182F;
+	font-weight: 700;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input{
+	outline: none;
+	padding: 12px 0 12px 20px;
+	border: 1px solid #DAE1F5;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 21px;
+}
+.container{
+	max-width: 1017px;
+	width: 100%;
+	margin: 30px auto;
+	background-color: #F0F2FB;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 25px;
+
+}
+.login{
+	background-color: #fff;
+	
+	width: 967px;
+	height: 604px;
+	display: grid;
+	grid-template-columns: 1fr 1.3fr ;
+	grid-template-rows: 1fr ;
+
+}
+.login__item{
+	border-right: 2px solid #DAE1F5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.login__item:last-child{
+	border-right: none;
+}
+.login__form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.login__gogle-link{
+	border: 1px solid #DAE1F5;
+    border-radius: 5px;
+    padding: 12px 62px;
+    display: flex;
+    font-weight: 700;
+    text-decoration: none;
+    color: #545D7A;
+    transition: color, background-color .3s ease-in;
+}
+.login__gogle-link:hover img{
+	transform: scale(1.5);
+}
+.login__gogle-link:hover{
+	background-color: #545D7A;
+	color: #fff;
+}
+.login__gogle-link img{
+	padding-right: 7px;
+}
+.check-row{
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 31px;
+}
+.check-me{
+	display: flex;
+}
+.check-me span{
+	padding-left: 10px;
+	font-size: 14px;
+}
+.checkbox{
+	width: 19px;
+	height: 19px;
+	margin: 0;
+}
+
+.item-box{
+	max-width: 386px;
+	display: flex;
+	padding-bottom: 50px;
+}
+.box-img{
+	padding-right: 21px;
+}
+.box-content__title{
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.box-content__subtitle{
+	line-height: 25px;
+}
+
+
+
+
